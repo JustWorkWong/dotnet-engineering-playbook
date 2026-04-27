@@ -168,8 +168,10 @@ Controller / Endpoint
 
 - [`CAP 生产实践`](../03-distributed-systems/dotnet-cap-production-guide.md)
 - [`OpenAPI vs gRPC vs Message`](../03-distributed-systems/openapi-vs-grpc-vs-message-boundaries.md)
+- [`数据库迁移 / 回滚 / 灰度发布`](../03-distributed-systems/database-migrations-rollbacks-and-gradual-release.md)
 - [`模块化单体 vs 微服务`](../03-distributed-systems/modular-monolith-vs-microservices.md)
 - [`缓存 / 限流 / 重试 / 熔断`](../03-distributed-systems/cache-rate-limit-retry-circuit-breaker.md)
+- [`任务调度 / 后台作业 / 工作流状态机`](../03-distributed-systems/job-scheduling-background-workers-and-state-machines.md)
 
 因为它把下面这条生产主线打通了：
 
@@ -331,6 +333,7 @@ Prompt + Structured Output
 参见：
 
 - [`RAG / Workflow / Agent 分层实践`](../05-ai-coding/rag-workflow-agent-layering.md)
+- [`AI 成本 / 评测 / 安全护栏`](../05-ai-coding/ai-cost-evals-and-guardrails.md)
 - [`Claude Code / Codex / ChatGPT 协作手册`](../05-ai-coding/claude-code-codex-chatgpt-playbook.md)
 
 ### 8.4 AI coding workflow 的稳妥接入顺序
