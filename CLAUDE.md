@@ -23,9 +23,12 @@ dotnet-engineering-playbook/
    │  └─ ef-core-vs-dapper-vs-raw-sql.md
    ├─ 03-distributed-systems/
    │  ├─ dotnet-cap-production-guide.md
+   │  ├─ openapi-vs-grpc-vs-message-boundaries.md
+   │  ├─ cache-rate-limit-retry-circuit-breaker.md
    │  └─ modular-monolith-vs-microservices.md
    ├─ 04-observability/
    │  ├─ opentelemetry-maf-observability-guide.md
+   │  ├─ multi-tenant-permission-audit.md
    │  └─ production-event-tracking.md
    ├─ 05-ai-coding/
    │  ├─ claude-code-codex-chatgpt-playbook.md
@@ -39,8 +42,8 @@ dotnet-engineering-playbook/
 - `README.md`：仓库入口，只讲定位、阅读顺序、目录导航。
 - `docs/01-roadmap/production-roadmap.md`：总路线图，决定主线，不承载细节百科。
 - `docs/02-foundations/`：`.NET` 运行时、异步、GC、线程池、请求管线，以及数据访问默认解与热点下沉策略。
-- `docs/03-distributed-systems/`：消息、最终一致性、工作流、分布式可靠性，以及服务边界演化判断。
-- `docs/04-observability/`：Trace、Metric、Log、埋点、告警、审计。
+- `docs/03-distributed-systems/`：消息、最终一致性、工作流、分布式可靠性、通信边界，以及韧性治理判断。
+- `docs/04-observability/`：Trace、Metric、Log、埋点、告警、审计，以及租户/权限治理相关的可追踪信号。
 - `docs/05-ai-coding/`：`Claude Code / Codex / ChatGPT` 的工程协作模式，以及 AI 业务系统的分层落地方法。
 - `docs/06-interview/`：把前面的生产实践压缩成可表达、可训练、可追问的输出层。
 

@@ -167,7 +167,9 @@ Controller / Endpoint
 参见：
 
 - [`CAP 生产实践`](../03-distributed-systems/dotnet-cap-production-guide.md)
+- [`OpenAPI vs gRPC vs Message`](../03-distributed-systems/openapi-vs-grpc-vs-message-boundaries.md)
 - [`模块化单体 vs 微服务`](../03-distributed-systems/modular-monolith-vs-microservices.md)
+- [`缓存 / 限流 / 重试 / 熔断`](../03-distributed-systems/cache-rate-limit-retry-circuit-breaker.md)
 
 因为它把下面这条生产主线打通了：
 
@@ -207,6 +209,10 @@ Event  -> 用户和业务发生了什么
 - 关键业务动作补 Event 埋点
 - 告警基于 SLI/SLO，不靠人工盯日志
 - Trace 与业务埋点、审计记录能互相回查
+
+参见：
+
+- [`多租户 / 权限 / 审计 生产设计`](../04-observability/multi-tenant-permission-audit.md)
 
 ### 6.4 为什么很多团队“有日志但没观测能力”
 

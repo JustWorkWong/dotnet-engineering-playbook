@@ -19,12 +19,15 @@
 2. [`.NET` 后端底座](./docs/02-foundations/dotnet-backend-foundation.md)
 3. [EF Core vs Dapper vs Raw SQL](./docs/02-foundations/ef-core-vs-dapper-vs-raw-sql.md)
 4. [CAP 生产实践](./docs/03-distributed-systems/dotnet-cap-production-guide.md)
-5. [模块化单体 vs 微服务](./docs/03-distributed-systems/modular-monolith-vs-microservices.md)
-6. [OpenTelemetry + MAF 可观测性](./docs/04-observability/opentelemetry-maf-observability-guide.md)
-7. [生产级埋点设计](./docs/04-observability/production-event-tracking.md)
-8. [RAG / Workflow / Agent 分层实践](./docs/05-ai-coding/rag-workflow-agent-layering.md)
-9. [Claude Code / Codex / ChatGPT 协作手册](./docs/05-ai-coding/claude-code-codex-chatgpt-playbook.md)
-10. [面试定位与训练方法](./docs/06-interview/interview-positioning.md)
+5. [OpenAPI vs gRPC vs Message](./docs/03-distributed-systems/openapi-vs-grpc-vs-message-boundaries.md)
+6. [模块化单体 vs 微服务](./docs/03-distributed-systems/modular-monolith-vs-microservices.md)
+7. [缓存 / 限流 / 重试 / 熔断](./docs/03-distributed-systems/cache-rate-limit-retry-circuit-breaker.md)
+8. [OpenTelemetry + MAF 可观测性](./docs/04-observability/opentelemetry-maf-observability-guide.md)
+9. [生产级埋点设计](./docs/04-observability/production-event-tracking.md)
+10. [多租户 / 权限 / 审计 生产设计](./docs/04-observability/multi-tenant-permission-audit.md)
+11. [RAG / Workflow / Agent 分层实践](./docs/05-ai-coding/rag-workflow-agent-layering.md)
+12. [Claude Code / Codex / ChatGPT 协作手册](./docs/05-ai-coding/claude-code-codex-chatgpt-playbook.md)
+13. [面试定位与训练方法](./docs/06-interview/interview-positioning.md)
 
 ## 当前目录结构
 
@@ -62,11 +65,14 @@ dotnet-engineering-playbook/
   - `EF Core vs Dapper vs Raw SQL` 决策文档
   - `模块化单体 vs 微服务` 演化文档
   - `RAG / Workflow / Agent` 分层实践文档
+  - `OpenAPI vs gRPC vs Message` 边界文档
+  - `缓存 / 限流 / 重试 / 熔断` 韧性治理文档
+  - `多租户 / 权限 / 审计` 生产设计文档
 
 ## 下一步建议
 
 建议后续继续补三类内容：
 
-1. `OpenAPI vs gRPC vs Message` 的边界文档
-2. `多租户 / 权限 / 审计` 的生产设计文档
-3. `缓存 / 限流 / 重试 / 熔断` 的故障治理文档
+1. `数据库迁移 / 回滚 / 灰度发布` 的生产文档
+2. `任务调度 / 后台作业 / 工作流状态机` 的设计文档
+3. `AI 成本 / 评测 / 安全护栏` 的工程治理文档
